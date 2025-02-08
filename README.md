@@ -1,4 +1,4 @@
-Hi everyone, this Jack P. A. I have studied pure math for 10+ years, and currently work in the financial industry. I want to find a better job and relocate to a more comfortable place to live.
+Hi everyone, this Jack P. I studied pure mathematics and serve in the financial industry. I work hard to earn a better life.
 
 I like to read and write. The first few uploads are my recent Python codes that I wrote for entertainment. Please use at your own discretion. I may also write some math articles just for fun. 
 
