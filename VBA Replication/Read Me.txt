@@ -1,0 +1,8 @@
+In this project, I managed to automate the Python replication of some VBA macro functions for MS Excel.
+Specifically,
+
+1, Client implemented BS model for vanilla option pricing in their excel spreadsheet based on the formulas in the screenshots, assuming zero dividends. I implemented the model in Python and conducted automated unit testing to compare the results on Python and Excel cells for various assumptions on the parameters for the BS model.
+
+2, Bank has FX portfolio consisting of two currencies. Risk manager implemented historical VaR methodology as defined in internal policies (1 day with .99 confidence level) for the FX portfolio in excel, assuming no correlation between these currencies. I implemented the VaR calculation in python to revert the one day VaR, matching the result previously computed by a macro module. Moreover, I improved the code to conduct VBA manipulation for automated unit testing. That is, Python randomly generates the FX data and let VBA output its computation. In the meantime, Python independently computes its own result and compare with VBA.
+
+3, In the setting of the old problem, the 1% percentile of 260 numbers is computed differently from what np.quantile yields. The reason lies in the different algorithms, for which the QC module comes to help.
